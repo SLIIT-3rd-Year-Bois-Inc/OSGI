@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ExchangeRateCRUDProducer
+Bundle-SymbolicName: ExchangeRateCRUDProducer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: exchangeratecrudproducer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: ExchangeRateCRUDProducer
+Import-Package: exchangerateproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

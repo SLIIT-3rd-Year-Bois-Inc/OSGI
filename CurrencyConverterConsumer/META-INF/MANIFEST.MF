@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CurrencyConverterConsumer
+Bundle-SymbolicName: CurrencyConverterConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: currencyconverterconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: CurrencyConverterConsumer
+Import-Package: currencyconverterproducer,
+ exchangerateproducer,
+ org.osgi.framework;version="1.3.0",
+ userinterfaceproducer
+Bundle-ActivationPolicy: lazy

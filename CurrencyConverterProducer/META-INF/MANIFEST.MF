@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CurrencyConverterProducer
+Bundle-SymbolicName: CurrencyConverterProducer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: currencyconverterproducer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: CurrencyConverterProducer
+Import-Package: exchangerateproducer,
+ org.osgi.framework;version="1.3.0",
+ userinterfaceproducer
+Bundle-ActivationPolicy: lazy
+Export-Package: currencyconverterproducer
