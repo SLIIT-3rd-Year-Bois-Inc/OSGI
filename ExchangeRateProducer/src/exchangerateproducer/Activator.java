@@ -18,6 +18,7 @@ public class Activator implements BundleActivator {
 		Activator.context = bundleContext;
 		System.out.println("Exchange Rate Producer Started");
 		ExchangeRate impl = new ExchangeRateImpl();
+		impl.initializeExchangeRates();
 		publishServiceRegistration = context.registerService(ExchangeRate.class.getName(),impl, null);
 	}
 
